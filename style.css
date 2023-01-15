@@ -1,0 +1,69 @@
+* {
+  color: blueviolet;
+}
+
+h2 {
+  background-color: red;
+  color: aqua;
+  text-transform: lowercase;
+}
+
+.filter {
+  width: 89px;
+  height: 19px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: brown;
+}
+
+.filter {
+  color: black;
+}
+
+div p {
+  color: green;
+}
+
+img {
+  color: blue;
+}
+
+h1 {
+  color: purple;
+}
+
+input[type='text'] {
+  color: yellow;
+}
+button[type='reset'] {
+  color: aqua;
+}
+
+button {
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  background-color: aqua;
+  text-transform: uppercase;
+}
+a:focus {
+  color: red;
+  text-transform: uppercase;
+}
+a:visited {
+  color: green;
+}
+a:link {
+  color: rebeccapurple;
+}
+li:nth-child(even) {
+  color: red;
+}
+ul:last-child(even) {
+  color: red;
+}
