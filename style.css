@@ -58,7 +58,7 @@ a:focus {
 a:visited {
   color: green;
 }
-a:link {
+a:link [id='steam, twitch, translate, youtube'] {
   color: rebeccapurple;
 }
 li:nth-child(even) {
@@ -66,4 +66,34 @@ li:nth-child(even) {
 }
 ul:last-child(even) {
   color: red;
+}
+a/:link {
+  background-color: red;
+  color: DodgerBlue;
+  background-color: aqua;
+}
+b/:hover {
+  background-color: red;
+  background-color: green;
+  background-color: red;
+}
+twitch:focus {
+  text-transform: uppercase;
+  background-color: white;
+  background-color: red;
+}
+steam:visited {
+  text-transform: uppercase;
+  color: blue;
+  background-color: red;
+}
+translate:hover {
+  background-color: red;
+  text-transform: uppercase;
+  background-color: grey;
+}
+youtube:active {
+  background-color: red;
+  text-transform: lowercase;
+  background-color: black;
 }
